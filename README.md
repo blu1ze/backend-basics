@@ -13,3 +13,16 @@ python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+## Запуск
+
+```bash
+python main.py
+```
+
+## Проверка кода
+
+```bash
+ruff check .
+ruff format .
+```
